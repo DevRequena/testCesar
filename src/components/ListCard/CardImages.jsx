@@ -15,7 +15,7 @@ export const CardImages = ({avatar, name, email, city, company, address, quote})
         trigger={
               <div className='main'>
                       <div className='image'>
-                        <img src={`/public/assets/${avatar}.jpg`} className='avatar' alt={`Picture of ${name}`} />
+                        <img src={`/assets/${avatar}.jpg`} className='avatar' alt={`Picture of ${name}`} />
                       </div>              
                       <div className='containerCard'>
                         <div className='title'>
