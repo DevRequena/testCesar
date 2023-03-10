@@ -3,6 +3,8 @@ import { SocialIcon } from 'react-social-icons';
 import './cardImages.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faLocationDot, faBuilding  } from "@fortawesome/free-solid-svg-icons";
+import Bret from "/public/images/lupa.png";
+import Antonette from "/public/images/lupa.png";
 
 
 
@@ -15,7 +17,7 @@ export const CardImages = ({avatar, name, email, city, company, address, quote})
         trigger={
               <div className='main'>
                       <div className='image'>
-                        <img src={`/public/images/${avatar}.jpg`} className='avatar' alt={`Picture of ${name}`} />
+                        <img src={avatar} className='avatar' alt={`Picture of ${name}`} />
                       </div>              
                       <div className='containerCard'>
                         <div className='title'>
