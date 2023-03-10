@@ -53,7 +53,7 @@ export const CardImages = ({avatar, name, email, city, company, address, quote})
             <div className="modal">
               <div className="ProfileContainer">
                 <div>
-                  <img src={`../../public/images/${avatar}.jpg`} alt={`Picture of ${name}`} />
+                  <img src={`/assets/${avatar}.jpg`} alt={`Picture of ${name}`} />
                 </div>
               </div>
               <div className="modalContent">
