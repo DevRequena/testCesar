@@ -1,9 +1,10 @@
 import Popup from "reactjs-popup";
-import { MdEmail } from 'react-icons/Md';
-import { ImLocation } from 'react-icons/Im';
-import { MdBusiness } from 'react-icons/Md';
 import { SocialIcon } from 'react-social-icons';
 import './cardImages.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faLocationDot, faBuilding  } from "@fortawesome/free-solid-svg-icons";
+
+
 
 
 export const CardImages = ({avatar, name, email, city, company, address, quote}) => {
@@ -21,13 +22,13 @@ export const CardImages = ({avatar, name, email, city, company, address, quote})
                           {name}
                         </div>
                           <div className='description'> 
-                            <MdEmail/>  {email}                            
+                            <FontAwesomeIcon icon={faEnvelope}/>  {email}                            
                           </div>
                           <div className='value'> 
-                            <ImLocation/>  {city}
+                          <FontAwesomeIcon icon={faLocationDot}/>  {city}
                           </div>
                           <div className='time'> 
-                            <MdBusiness/>  {company}
+                            <FontAwesomeIcon icon={faBuilding}/>   {company}
                           </div>                
                         <div className='socialMedia'>
                               <div className="facebook">
