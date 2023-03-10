@@ -1,4 +1,4 @@
-import lupa from "/public/images/lupa.png";
+import lupa from "/public/assets/lupa.png";
 import './filter.css'
 
 
