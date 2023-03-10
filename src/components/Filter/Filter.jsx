@@ -1,5 +1,6 @@
-import React from "react";
+import lupa from "/public/images/lupa.png";
 import './filter.css'
+
 
 export const Filter = ({data, setDataFilter}) => {
 
@@ -24,7 +25,7 @@ export const Filter = ({data, setDataFilter}) => {
                     onChange={(e) => handleChange(e)}
                     placeholder="Find your Profile"
                     />
-              <button type="submit" disabled={true}><img src="/public/images/lupa.png"/></button>
+              <button type="submit" disabled={true}><img src={lupa}/></button>
           </form>
         <div className="sticks"></div>
     </div>
