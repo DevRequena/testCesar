@@ -38,7 +38,7 @@ export const Card = () => {
                   email={info.email} 
                   city={info.address.city} 
                   company={info.company.name}
-                  avatar={info.username}
+                  avatar={info.id}
                   address={info.address}
                   quote={info.company}
                   />
